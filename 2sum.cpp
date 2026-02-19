@@ -9,7 +9,7 @@ int main(){
 
      for(int j=i+1;j<5;j++){
         if(arr[i]+arr[j]==target){
-            cout<<"yes";
+            cout<<"yes"<<endl;
             cout<<i<<" "<<j;
             return 0;
         }
