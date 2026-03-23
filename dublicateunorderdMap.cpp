@@ -1,17 +1,12 @@
 #include<iostream>
-#include<unordered_map>
+#include<unordered_map >
 using namespace std;
-int main()
-{
-unordered_map<int,int> m;
-m[1]=10;
-m[2]=20;    
-m[3]=30;
-m[4]=10;
-m[5]=20;
-for(auto i:m)
-{
-    cout<<i.first<<" "<<i.second<<endl;
-    
-}
+int main(){
+
+unordered_map<int ,string>mp;
+
+mp[1]="ayush";
+mp[2]="kokkie";
+cout<<mp[2];
+return 0;
 }
