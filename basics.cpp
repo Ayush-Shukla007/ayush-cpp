@@ -2,17 +2,15 @@
 using namespace std;
 int main(){
 
-int g,c;
+int g,c,n;
+
 cout<<"enter the acc and speed of light";
-cin>>g>>c;
+cin>>g>>c>>n;
+while(n){
 int h=(c*c)/(2*g);
-cout<<h;
-
-
-
-
-
-
+ cout<<h<<endl;
+ n--;
+}
 
 
 }
